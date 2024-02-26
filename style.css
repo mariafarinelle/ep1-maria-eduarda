@@ -1,0 +1,26 @@
+:root{ 
+    --cor_botao_clicado: red;
+    --cor_botao_n_clic:  yellow;
+    --cor_fundo:  black;
+    --cor_titulo:  pink;
+}
+
+body{
+   background-color: var(--cor_fundo);
+
+}
+h1{
+    color: var(--cor_titulo);
+}
+.principal{
+    border: solid white 2px;
+    text-align: center;
+    height: 500px;
+    width: 200px;
+    border-radius: 10%; 
+}
+ button{
+    border-bottom: solid blueviolet;
+    border-radius: 5%;
+    color:red;
+ }
